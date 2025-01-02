@@ -36,7 +36,8 @@ const dividir = (n1,n2) => {
     if (n2 > 0) {
         return n1 / n2
     }
-    return 'N2 não pode ser menor que 0'
+    console.error('Não é possível dividir por 0 o menor que zero')
+    return 'N2 não pode ser menor que 0 ou menor que zero'
 }
 
 const multiplicar = (n1,n2) => {
