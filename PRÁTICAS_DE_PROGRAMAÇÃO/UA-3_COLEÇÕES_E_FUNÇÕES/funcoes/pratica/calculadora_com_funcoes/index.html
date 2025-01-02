@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora com funções</title>
+</head>
+<body>
+    <div>
+        <h1> Calculadora para dois valores e operações básicas</h1>
+        <form>
+            <label>Digite o primeiro valor</label>
+            <input type="text" id="n1"/>
+            <label>Digite o segundo valor</label>
+            <input type="text" id="n2"/>
+        </form>
+        <button onclick="calcular('+')">Somar</button>
+        <button onclick="calcular('-')">Subtrair</button>
+        <button onclick="calcular('/')">Dividir</button>
+        <button onclick="calcular('*')">Multiplicar</button>
+
+        <h2 id="resultado"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
