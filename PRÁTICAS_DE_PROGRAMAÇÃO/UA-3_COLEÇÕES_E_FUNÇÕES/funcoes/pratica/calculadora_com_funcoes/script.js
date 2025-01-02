@@ -20,11 +20,6 @@ function calcular(operacao){
 
     }
 
-
-
-
-
-
     container_resultado.innerHTML = `O resultado foi: ${resultado}`
 }
 
